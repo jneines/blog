@@ -1,5 +1,13 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-
 format: jb-book
 root: intro
+chapters:
+- file: 2024.md
+  sections:
+  - file: 2024/20240501-later/20240501-later.md
+  - file: 2024/20240430-hello/20240430-hello.md
+  - file: 2024/20240429-earlier/20240429-earlier.md
+- file: 2023.md
+  sections:
+  - file: 2023/20231231-party_on/20231231-party_on.md
+  - file: 2023/20230515-my_birthday/20230515-my_birthday.md
+  - file: 2023/20230101-happy_new_year/20230101-happy_new_year.md

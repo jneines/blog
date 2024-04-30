@@ -1,7 +1,11 @@
 target:=blog
-all: book
 
-new: clean book
+all: toc book
+
+new: clean toc book
+
+toc:
+	python3 tools/update_toc.py
 
 book:
 	jupyter-book build $(target)
